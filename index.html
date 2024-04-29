@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="./assets/js/color-modes.js"></script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Hugo 0.122.0">
+        <title>Navbar Template · Bootstrap v5.3</title>
+    
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars/">
+    
+        
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+        <style>
+          .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+          }
+    
+          @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+            }
+          }
+    
+          .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+          }
+    
+          .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+          }
+    
+          .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+          }
+    
+          .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+          }
+    
+          .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+          }
+    
+          .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+    
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8;
+          }
+    
+          .bd-mode-toggle {
+            z-index: 1500;
+          }
+    
+          .bd-mode-toggle .dropdown-menu .active .bi {
+            display: block !important;
+          }
+        </style>
+    
+        
+        <!-- Custom styles for this template -->
+        <link href="navbars.css" rel="stylesheet">
+      </head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded fixed-top" aria-label="Eleventh navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarsExample09">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Link">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Home -->
+    <section id="home">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Home</h2>
+          </div>
+        </div>
+        <div class="row justify-content-md-center fs-5 text-center">
+          <div class="col-4">
+            <p>Nikmati film serasa di bioskop hanya disini</p>
+          </div>
+          <div class="col-4">
+            <p>jelajahi film tanpa batas cuma disini</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4e8bee" fill-opacity="1" d="M0,160L48,160C96,160,192,160,288,154.7C384,149,480,139,576,138.7C672,139,768,149,864,160C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir Home -->
+
+    <!-- link -->
+<!-- link -->
+<section id="link">
+  <div class="container">
+      <div class="row text-center mb-3">
+          <div class="col">
+              <h2>link</h2>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-4">
+              <div class="card">
+                  <img src="images/Carl27s_Date_poster-1.jpg" class="card-img-top" alt="projects1"/>
+                  <div class="card-body">
+                      <p class="card-text">Carl's Date</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-4">
+              <div class="card">
+                  <img src="images/film-bioskop-terbaru-dari-indonesia-jatuh-cinta-seperti-di-film-film-2023.jpeg" class="card-img-top" alt="projects2">
+                  <div class="card-body">
+                      <p class="card-text">jumpa cinta seperti di film-film</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-4">
+              <div class="card">
+                  <img src="images/poster-film-the-marvels-marvel-6540626ee08ab.jpg" class="card-img-top" alt="projects3">
+                  <div class="card-body">
+                      <p class="card-text">The marvels</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- SVG path omitted for brevity -->
+</section>
+<!-- Akhir link -->
+
+    <!-- Akir link -->      
+</body>
+</html>
